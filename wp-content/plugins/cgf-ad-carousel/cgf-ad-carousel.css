@@ -1,0 +1,12 @@
+.cgf-carousel-wrap {
+    max-width: 1160px;
+    margin: 0 auto;
+    box-shadow: 0 0 12px rgba(0,0,0, 0.09);
+    background-color: #fff;
+}
+.slick-slide > div {
+    width: 100%;
+}
+.slick-slide img {
+    margin: 0 auto;
+}
