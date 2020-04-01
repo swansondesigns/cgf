@@ -1,0 +1,18 @@
+body.login {
+  background-color: #1abca8;
+  background-image: url("../images/backgrounds/login.jpg");
+  background-size: contain;
+  display: flex; }
+  body.login #login {
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.8); }
+    body.login #login #login_error,
+    body.login #login .message,
+    body.login #login .success {
+      border-left: 4px solid #1abca8; }
+    body.login #login .button-primary {
+      background: #1abca8;
+      box-shadow: 0 1px 0 #1abca8;
+      color: #fff;
+      text-decoration: none;
+      text-shadow: 0 -1px 1px #1abca8, 1px 0 1px #1abca8, 0 1px 1px #1abca8, -1px 0 1px #1abca8; }

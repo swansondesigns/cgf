@@ -1,0 +1,27 @@
+body.login {
+    background-color: $site-color-1;
+    background-image: url("../images/backgrounds/login.jpg");
+    background-size: contain;
+    display: flex;
+
+    #login {
+        padding: 2%;
+        background-color: rgba(255, 255, 255, .8);
+        #login_error,
+        .message,
+        .success {
+
+            border-left: 4px solid $site-color-1;
+
+        }
+		.button-primary {
+		    background: $site-color-1;
+		    // border-color: #0073aa #006799 #006799;
+		    box-shadow: 0 1px 0 $site-color-1;
+		    color: #fff;
+		    text-decoration: none;
+		    text-shadow: 0 -1px 1px $site-color-1, 1px 0 1px $site-color-1, 0 1px 1px $site-color-1, -1px 0 1px $site-color-1;
+		}
+    }
+
+}

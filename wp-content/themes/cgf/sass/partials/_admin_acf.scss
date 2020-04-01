@@ -1,0 +1,12 @@
+.acf-postbox .acf-flexible-content .layout {
+    .acf-fc-layout-handle {
+        background-color: $site-color-3;
+        color: #fff;
+        font-weight: bold;
+    }
+    table.acf-table tr.acf-row > td {
+        border-top: 10px solid;
+        border-top-color: orange !important;
+
+    }
+}

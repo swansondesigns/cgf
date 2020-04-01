@@ -1,0 +1,34 @@
+html, body,
+body#tinymce {
+  font-family: "Lato", sans-serif; }
+
+/**
+
+	Widget Area
+
+/**/
+#footer-widget-area div[id*="divider"] .widget-inside .widget-content {
+  display: none; }
+
+#footer-widget-area div[id*="divider"] .widget-inside .widget-control-actions {
+  margin-top: 15px; }
+
+/*
+    Hide seldom used admin links
+*/
+li#toplevel_page_maxmegamenu,
+li#toplevel_page_cff-top {
+  display: none; }
+
+li#toplevel_page_maxmegamenu.wp-menu-open,
+li#toplevel_page_cff-top.wp-menu-open {
+  display: list-item; }
+
+.acf-postbox .acf-flexible-content .layout .acf-fc-layout-handle {
+  background-color: #1abca8;
+  color: #fff;
+  font-weight: bold; }
+
+.acf-postbox .acf-flexible-content .layout table.acf-table tr.acf-row > td {
+  border-top: 10px solid;
+  border-top-color: #388155 !important; }

@@ -1,0 +1,50 @@
+html, body {
+	font-family: $font-family-base;
+	color: $text-color;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: $site-color-2;
+	font-family: $font-family-headings;
+	line-height: 1.05em;
+	margin: 0 0 20px;
+
+	a:link,
+	a:visited,
+	a:hover,
+	a:active {
+		color: inherit;
+	}
+	a {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+
+}
+h1 {
+	color: #484848;
+}
+a:hover,
+a:active,
+a:visited {
+	// color: inherit;  No idea why this doesn't work.
+	color: $site-color-1;
+}
+
+ol, ul {
+    padding: 0 0 0 40px;
+}
+dl, ol, ul {
+    margin: 1em 0;
+}
+
+button,
+.button {
+    color: $site-color-1;
+    border: 1px solid $site-color-1;
+    padding: 3px 8px 6px;
+    border-radius: 7px;
+    transition: background .3s, color .3s;
+    text-decoration: none;
+}

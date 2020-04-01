@@ -1,0 +1,16 @@
+@mixin center-inline-element {
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+@mixin center-inline-element-unset {
+	left: auto;
+	transform: none;
+}
+@mixin center-inline-element-on-mobile {
+	@include center-inline-element;
+	@include tablet-portrait-and-up {
+		@include center-inline-element-unset;
+	}
+}

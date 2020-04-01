@@ -1,0 +1,79 @@
+
+#wpadminbar {
+    background: $site-color-1;
+    background: $site-color-2;
+    color: $site-color-3;
+}
+
+#adminmenu,
+#adminmenu .wp-submenu,
+#adminmenuback, #adminmenuwrap {
+    background-color: $site-color-3;
+}
+
+#adminmenu {
+
+    .wp-has-current-submenu .wp-submenu .wp-submenu-head,
+    .wp-menu-arrow,
+    .wp-menu-arrow div,
+    li.current a.menu-top,
+    li.wp-has-current-submenu a.wp-has-current-submenu {
+        background-color: $site-color-3;
+
+    }
+}
+
+.folded #adminmenu {
+    li.current.menu-top,
+    li.wp-has-current-submenu {
+        background-color: $site-color-3;
+    }
+}
+
+#adminmenu {
+    .wp-has-current-submenu .wp-submenu,
+    .wp-has-current-submenu .wp-submenu.sub-open,
+    .wp-has-current-submenu.opensub .wp-submenu,
+    a.wp-has-current-submenu:focus + .wp-submenu {
+        background-color: $site-color-1;
+    }
+}
+
+.no-js li.wp-has-current-submenu:hover .wp-submenu {
+    background-color: $site-color-1;
+}
+
+/**
+
+	Widget Area
+
+/**/
+#footer-widget-area {
+	div[id*="divider"] {
+		border: 1px solid red;
+        .widget-top {}
+        .widget-inside {
+            .widget-content {
+                display: none;
+            }
+            .widget-control-actions {
+                margin-top: 15px;
+            }
+        }
+	}
+}
+
+/*
+    Hide seldom used admin links
+*/
+li#toplevel_page_maxmegamenu,
+li#toplevel_page_cff-top {
+    display: none;
+}
+
+li#toplevel_page_maxmegamenu.wp-menu-open,
+li#toplevel_page_cff-top.wp-menu-open {
+    display: list-item;
+}
+
+@import "admin_acf";

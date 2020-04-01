@@ -1,0 +1,25 @@
+$font-family-base:			'Lato', sans-serif;
+$font-family-headings:		'Lato', sans-serif;
+// Pixel value used to responsively scale all typography. Applied to the `<html>` element.
+$font-size-root:             10px;
+
+$font-size-h1:               6.8rem;
+$font-size-h2:               5.6rem;
+$font-size-h3:               3.4rem;
+$font-size-h4:               2.2rem;
+$font-size-h5:               1.6rem;
+
+$display1-size:              6.8rem;
+$display2-size:              5.6rem;
+$display3-size:              3.4rem;
+$display4-size:              2.2rem;
+$display5-size:              1.6rem;
+
+$font-wt-bolder:             900;
+$font-wt-bold:               700;
+$font-wt-medium:             600;
+$font-wt-regular:            400;
+$font-wt-light:              300;
+
+// Components
+$base-font-color: $primary-black;
