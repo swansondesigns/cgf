@@ -11,6 +11,7 @@ $library_files_to_include = array(
   'dashboard-widgets',
   'handy-functions',
   'manage-images',
+  'manage-shortcodes',
   'manage-widgets',
   'shortcode-feature',
   'shortcode-posts',
