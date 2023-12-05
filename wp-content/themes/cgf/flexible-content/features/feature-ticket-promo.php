@@ -85,8 +85,13 @@ echo '<div class="ticket-column ticket-column-promo">';
 	        break;
 
 	    case 'image':
-	        echo 'Output image';
-			echo $promo_image;
+			$attachment_image = wp_get_attachment_image($promo_image['ID'], 'medium-resized');
+			echo $attachment_image;
+			/*
+			echo '<pre>';
+			var_dump($attachment_image);
+			echo '</pre>';
+			//*/
 	        break;
 	}
 

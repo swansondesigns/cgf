@@ -1,0 +1,247 @@
+{
+    "key": "group_5d6133fa99f09",
+    "title": "Home Page Builder",
+    "fields": [
+        {
+            "key": "field_5d61366d527c9",
+            "label": "Content",
+            "name": "home_page_builder",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5d6136838b241": {
+                    "key": "layout_5d6136838b241",
+                    "name": "layout_feature_row",
+                    "label": "Feature Box Row",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5d6136bc527cb",
+                            "label": "Choose Features",
+                            "name": "choose_features",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "table",
+                            "button_label": "Add Feature",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5d6136e4527cd",
+                                    "label": "Feature",
+                                    "name": "feature_repeater",
+                                    "type": "post_object",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "post_type": [
+                                        "features"
+                                    ],
+                                    "taxonomy": [
+                                        "feature_type:promo-box"
+                                    ],
+                                    "allow_null": 0,
+                                    "multiple": 0,
+                                    "return_format": "object",
+                                    "ui": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5d613689527ca": {
+                    "key": "layout_5d613689527ca",
+                    "name": "layout_hero_image",
+                    "label": "Hero Image",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5d6136cd527cc",
+                            "label": "Choose Hero",
+                            "name": "choose_hero",
+                            "type": "post_object",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "features"
+                            ],
+                            "taxonomy": [
+                                "feature_type:hero"
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "return_format": "object",
+                            "ui": 1
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5d657f70191e6": {
+                    "key": "layout_5d657f70191e6",
+                    "name": "layout_ticket_promo",
+                    "label": "Ticket Promo",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5d657f7c191e7",
+                            "label": "Choose Ticket Promo",
+                            "name": "choose_ticket_promo",
+                            "type": "post_object",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "features"
+                            ],
+                            "taxonomy": [
+                                "feature_type:ticket-promo"
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "return_format": "object",
+                            "ui": 1
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5df7ccb5ccf62": {
+                    "key": "layout_5df7ccb5ccf62",
+                    "name": "layout_in_page_navigation",
+                    "label": "In-Page Navigation",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5df7ccd7ccf63",
+                            "label": "",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "No settings required for this block.  Use the In-Page navigation editor below.",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_61eae92aaa942": {
+                    "key": "layout_61eae92aaa942",
+                    "name": "layout_text_editor",
+                    "label": "General",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_61eae93faa943",
+                            "label": "General Content",
+                            "name": "text_editor_content",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            },
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-front-page.php"
+            }
+        ],
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "excerpt",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1642796725
+}
