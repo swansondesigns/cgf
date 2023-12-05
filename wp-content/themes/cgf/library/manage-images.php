@@ -57,7 +57,13 @@ function sd_add_image_sizes() {
 			'width' => 300,
 			'height' => 200,
 			'crop' => false,
-		)
+		),
+		array(
+			'name' => 'medium-resized',
+			'width' => 500,
+			'height' => 375,
+			'crop' => false,
+		),
 	);
 
 	foreach ($image_sizes as $image_size) {
