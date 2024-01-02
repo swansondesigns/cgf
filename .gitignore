@@ -93,7 +93,6 @@ wp-content/*
 
 # ignore these plugins
 wp-content/plugins/*
-wp-content/plugins/hello.php
 
 # include these plugins
 !wp-content/plugins/cgf*
