@@ -105,6 +105,7 @@ wp-content/themes/twenty*/
 
 # ignore specific theme files/folders
 wp-content/themes/cgf/fonts/
+wp-content/themes/cgf/assets/
 
 # ignore node/grunt dependency directories
 node_modules/
